@@ -99,7 +99,7 @@ function setup() {
   ground = new Ground(width/2, canH-2, width, 5);
 
   //criação cordas
-  rope = new Rope(8, { x: width/2-180, y: 40 });//elos, pointA
+  rope = new Rope(8, { x: width/2-180, y: 60 });//elos, pointA
   rope2 = new Rope(7, { x: width/2+60, y: 40 });
   rope3 = new Rope(4, { x: width/2+160, y: 210 });
   Matter.Composite.add(rope.body, fruit); //nome composite, corpo
@@ -110,7 +110,7 @@ function setup() {
 
   //criação Botões
   button = createImg("img/cut_btn.png");
-  button.position(width/2-200, 30);
+  button.position(width/2-200, 60);
   button.size(50, 50);
   button.mouseClicked(drop);
   button2 = createImg("img/cut_btn.png");
