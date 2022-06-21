@@ -121,7 +121,7 @@ function setup() {
   button3.position(width/2+120, 185);
   button3.size(50, 50);
   button3.mouseClicked(drop3);
-  button3.touchStarted(drop3)
+  
   /*
   baloon = createImg("img/balloon.png");
   baloon.position(10, 250);
