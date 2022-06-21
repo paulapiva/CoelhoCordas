@@ -80,7 +80,7 @@ function setup() {
     //tamanho da janela interna navegador
     canW = windowWidth;
     canH = windowHeight;
-    createCanvas(windowWidth, windowHeight);
+    createCanvas(windowWidth+80, windowHeight);
   }
   frameRate(80);
 
